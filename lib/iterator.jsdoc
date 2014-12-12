@@ -1,0 +1,29 @@
+/**
+ * A protocol to implement finite or infinite lazy iterators
+ * or generators.
+ *
+ * Objects that respect this protocol should expose a `next`
+ * function, that returns an object with a `done` property
+ * specifying whether the iterator is exhausted, and a `value`
+ * where applicable.
+ *
+ * @property {function} [next]
+ *     Steps the iterator and returns the control object.
+ *
+ * @returns {IteratorStep}
+ *     An object with `done` and `value` properties.
+ *
+ * @typedef Iterator
+ */
+
+/**
+ * Returned for each step of an iterator.
+ *
+ * @property {boolean} done
+ *     True if the iterator is past its last iteration.
+ *
+ * @property {any} [value]
+ *     The value of the iteration.
+ *
+ * @typedef IteratorStep
+ */

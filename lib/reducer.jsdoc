@@ -1,0 +1,20 @@
+/**
+ * A function that receives two values, and returns the association
+ * between the first and the second.
+ *
+ * @example
+ *     function add(acc, v) {
+ *         return acc + v;
+ *     }
+ *
+ * @param {any} accumulator
+ *     The current accumulated value.
+ *
+ * @param {any} value
+ *     The value to associate.
+ *
+ * @returns {any}
+ *     The new accumulated value.
+ *
+ * @callback reducer
+ */

@@ -1,0 +1,17 @@
+/**
+ * A function that receives a value, and returns another value that
+ * maps to the old one.
+ *
+ * @example
+ *     function lower(s) {
+ *         return s.toLowerCase();
+ *     }
+ *
+ * @param {any} value
+ *     The value to transform.
+ *
+ * @returns {any}
+ *     The result of the transform.
+ *
+ * @callback transform
+ */

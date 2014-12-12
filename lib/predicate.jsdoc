@@ -1,0 +1,17 @@
+/**
+ * A function that receives a value, and returns a boolean
+ * representing whether the value satisfies the predicate.
+ *
+ * @example
+ *     function isEven(n) {
+ *         return n % 2 === 0;
+ *     }
+ *
+ * @param {any} value
+ *     The value to test.
+ *
+ * @returns {boolean}
+ *     True if the value satisfies the predicate.
+ *
+ * @callback predicate
+ */
